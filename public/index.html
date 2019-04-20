@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<!--suppress HtmlFormInputWithoutLabel, ES6ConvertVarToLetConst -->
+<html lang="zxx">
+
+<head>
+    <title>Rehoboth</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8"/>
+    <meta name="keywords" content=""/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js" type="text/javascript"></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet"
+          id="bootstrap-css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <!-- //Meta tag Keywords -->
+    <!-- Custom-Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="css/slider.css" type="text/css" media="all"/>
+    <!-- Style-CSS -->
+    <!-- font-awesome-icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- //font-awesome-icons -->
+    <!-- /Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700"
+          rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700" rel="stylesheet">
+
+    <script src="javascript/index.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<div class="main-w3layouts-header-sec">
+    <!-- header -->
+    <header>
+        <div class="container">
+            <div class="header d-lg-flex justify-content-between align-items-center">
+                <div class="header-section">
+                    <h1>
+                        <a class="navbar-brand logo editContent" href="index.html">
+                            <span class="fa fa-meetup"></span>
+                            <span style="font-size: 27px; font-family: 'Source Sans Pro', sans-serif;margin-left: -10px; font-weight: normal">Rehoboth</span>
+                        </a>
+                    </h1>
+                </div>
+                <div class="nav_section">
+                    <nav>
+                        <label for="drop" class="toggle mt-lg-0 mt-1"><span class="fa fa-bars"
+                                                                            aria-hidden="true"></span></label>
+                        <input type="checkbox" id="drop"/>
+                        <ul class="menu">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li>
+                                <a href="#">Departments<span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                                <input type="checkbox" id="drop-2"/>
+                                <ul class="inner-dropdown">
+                                    <li><a href="#content2">Surgical Services</a></li>
+                                    <li><a href="#content3">Laboratory</a></li>
+                                    <li><a href="#content1">Medicine</a></li>
+                                    <li><a href="#content1">Orthopedics</a></li>
+                                    <li><a href="#content5">Radiology</a></li>
+                                    <li><a href="#content6">Pharmacy</a></li>
+                                    <li><a href="#content4">Physiotherapy</a></li>
+                                    <li><a href="#content1">Obsterics</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="about.html">About </a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li class="icons">
+                                <a href="#" class="face-bk"><span class="fa fa-facebook" aria-hidden="true"></span></a>
+                            </li>
+
+                            <li class="icons"><a href="#" class="twitter"><span class="fa fa-twitter"
+                                                                                aria-hidden="true"></span></a></li>
+                            <li class="icons"><a href="#" class="instagram"><span class="fa fa-instagram"></span></a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- //header -->
+    <!-- banner -->
+    <section class="banner_w3pvt" id="home">
+        <div class="csslider infinity" id="slider1">
+            <input type="radio" name="slides" checked="checked" id="slides_1"/>
+            <input type="radio" name="slides" id="slides_2"/>
+            <ul>
+                <li>
+                    <div style="position: relative;">
+                        <div style="position: absolute;">
+                            <video autoplay muted loop>
+                                <source src="videos/media.io_background_video.mp4"/>
+                            </video>
+                        </div>
+                        <div class="video-overlay">
+                            <div class="container">
+                                <div class="banner-info">
+                                    <div class="banner-w3layouts-inner">
+                                        <h3 style="color: white;">We set the pace in medical excellence</h3>
+                                        <h4 style="color: whitesmoke;" id="info-text">Let's take care of your health
+                                            needs</h4>
+                                        <button class="btn btn-primary " href="#signup" data-toggle="modal"
+                                                data-target=".login-register-form" id="reg-btn">Sign In/Register
+                                        </button>
+                                        <button data-toggle="modal" data-target=".loading-progress"
+                                                style="display: none;" id="proceed">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="banner-top1">
+                        <div class="overlay">
+                            <div class="container">
+                                <div class="banner-info">
+                                    <div class="banner-w3layouts-inner">
+                                        <h3 style="color: white;">We do our best for you and <span>your </span> health.
+                                        </h3>
+                                        <h4 style="color: whitesmoke;">We will help to find good health, to
+                                            everyone.</h4>
+                                        <button class="btn btn-primary " href="#signup" data-toggle="modal"
+                                                data-target=".login-register-form" id="get-started">Get Started
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="arrows">
+                <label for="slides_1"></label>
+                <label for="slides_2"></label>
+            </div>
+        </div>
+    </section>
+    <!-- //banner -->
+</div>
+<!-- //header -->
+<!--/banner-bottom -->
+<section class="banner-bottom py-5">
+    <div class="container-fluid inner-sec-w3ls">
+        <div class="feature-grids row text-center">
+            <div class="col-lg-3 gd-bottom one">
+                <div class="bottom-gd">
+                    <span class="fa fa-wheelchair" aria-hidden="true"></span>
+                    <h3 class="mb-2">Modern Equipment</h3>
+                    <p>Our efficient medical equipment is used for diagnostics,
+                        surgical and other treatment of patients with severe diseases.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 gd-bottom">
+                <div class="bottom-gd">
+                    <span class="fa fa-user-md" aria-hidden="true"></span>
+                    <h3 class="mb-2">
+                        Experienced Doctors</h3>
+                    <p>Our Doctors are committed to helping you make the right medical decision with confidence.</p>
+
+                </div>
+            </div>
+            <div class="col-lg-3 gd-bottom">
+                <div class="bottom-gd">
+                    <span class="fa fa-life-ring" aria-hidden="true"></span>
+                    <h3 class="mb-2">Professionalism</h3>
+                    <p>We are regarded as a team of highly competent and professional service provider with
+                        integrity.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 gd-bottom">
+                <div class="bottom-gd">
+                    <span class="fa fa-folder-open-o" aria-hidden="true"></span>
+                    <h3 class="mb-2">Booking a Visit</h3>
+                    <p>We have dynamic and expansionist qualities that enable us to accommodate and respond to our
+                        patients at any given time.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="banner-bottom py-5">
+    <div class="container py-md-5">
+        <div class="row banner-grids mb-lg-5">
+            <div class="col-lg-4 content-left">
+                <img src="images/the_boss.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-4 content-left">
+                <img src="images/second_intro.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-4 content-right">
+                <h4>Best choice for medical health care for everyone.</h4>
+                <p class="mt-2 text-left">Our highly motivated and competent staffs
+                    that are committed to provide satisfaction and good health care services
+                    to our patients, makes us a top choice in medicine. </p>
+            </div>
+        </div>
+        <div class="row mt-lg-5 mt-4 pt-5 text-center" id="stats">
+            <div class="col-lg-4 counter editContent mt-3">
+                <span class="fa fa-users"></span>
+                <div class="counter-info">
+                    <h4>7200+</h4>
+                    <p>Healthy and happy customers</p>
+
+                </div>
+            </div>
+            <div class="col-lg-4 counter two editContent mt-3">
+                <span class="fa fa-user-md"></span>
+                <div class="counter-info">
+                    <h4>150+</h4>
+                    <p>Professional medical specialist</p>
+
+                </div>
+            </div>
+            <div class="col-lg-4 counter editContent mt-3">
+                <span class="fa fa-diamond"></span>
+                <div class="counter-info">
+                    <h4>25+</h4>
+                    <p>Years of impeccable and successful work</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /tabs -->
+<section class="tabs-blue py-5">
+    <div class="container pt-md-5">
+        <div class="header-w3layouts text-center mb-5">
+            <h3 class="title-w3pvt mb-3">Few of Our Services</h3>
+        </div>
+        <div class="tab-main mx-auto">
+            <input id="tab1" type="radio" name="tabs" class="w3layouts-sm" checked>
+            <label for="tab1">Orthopaedics</label>
+            <input id="tab2" type="radio" class="w3layouts-sm" name="tabs">
+            <label for="tab2">Surgery</label>
+            <input id="tab3" type="radio" class="w3layouts-sm" name="tabs">
+            <label for="tab3">Lab</label>
+            <input id="tab4" type="radio" class="w3layouts-sm" name="tabs">
+            <label for="tab4">Physiotherapy</label>
+            <input id="tab5" type="radio" class="w3layouts-sm" name="tabs">
+            <label for="tab5">Radiology</label>
+            <input id="tab6" type="radio" class="w3layouts-sm" name="tabs">
+            <label for="tab6">Pharmacy</label>
+            <section id="content1" class="inner-w3layouts-wrap">
+                <div class="row part-grids text-center inner-sec-w3ls">
+                    <div class="col-md-6 partgrid2">
+                        <div class="thumbnail card">
+                            <div class="img-event">
+                                <img class="img-fluid" src="images/broken_arm.jpg" alt="">
+                            </div>
+                            <div class="caption card-body p-md-4">
+                                <h4 class="mb-4 editContent">Diagnosis </h4>
+                                <p>
+                                    Our orthopaedic surgeons are devoted to the prevention, diagnosis, and
+                                    treatment of disorders of the bones, joints, ligaments, tendons and muscles.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 partgrid1">
+                        <div class="thumbnail card">
+                            <div class="img-event">
+                                <img class="img-fluid" src="images/bone_magnification.jpg" alt="">
+                            </div>
+                            <div class="caption card-body p-md-4">
+                                <h4 class="mb-4 editContent">Treatment </h4>
+                                <p>
+                                    Our orthopaedic surgeons treat patients of all ages— from newborns to the elderly.
+                                    We treat conditions like sports injuries, joint replacement and fractures.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="content2" class="inner-w3layouts-wrap">
+                <div class="row part-grids text-center">
+                    <div class="col-md-6 partgrid2">
+                        <div class="thumbnail card">
+                            <div class="img-event">
+                                <img class="img-fluid" src="images/theater_one.jpg" alt="">
+                            </div>
+                            <div class="caption card-body p-md-4">
+                                <h4 class="mb-4 editContent">World Class Surgeons </h4>
+                                <p>
+                                    Our certified surgeons are experts in surgery techniques and
+                                    offer comprehensive care and a full spectrum of surgical services.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 partgrid1">
+                        <div class="thumbnail card">
+                            <div class="img-event">
+                                <img class="img-fluid" src="images/theater_two.jpg" alt="">
+                            </div>
+                            <div class="caption card-body p-md-4">
+                                <h4 class="mb-4 editContent">World Class Standard </h4>
+                                <p>
+                                    Our approach to patient care aligns with our Vision and
+                                    Values and within the guidance of professional and regulatory organizations.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section id="content3" class="inner-w3layouts-wrap">
+                <div class="row part-grids text-center">
+
+                    <div class="col-md-6 partgrid2">
+                        <div class="thumbnail card">
+                            <div class="img-event">
+                                <img class="img-fluid" src="images/lab_one.jpg" alt="">
+                            </div>
+                            <div class="caption card-body p-md-4">
+                                <h4 class="mb-4 editContent">Cutting-Edge Lab Services </h4>
+                                <p>
+                                    We provide cutting-edge laboratory and pathology services for patients. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 partgrid1">
+                        <div class="thumbnail card">
+                            <div class="img-event">
+                                <img class="img-fluid" src="images/lab_two.jpg" alt="">
+                            </div>
+                            <div class="caption card-body p-md-4">
+                                <h4 class="mb-4 editContent">Consultation </h4>
+                                <p>
+                                    We also offer consultation in test selection and result interpretation. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="content4" class="inner-w3layouts-wrap">
+                <div class="row part-grids text-center">
+                    <div class="col-md-6 partgrid2">
+                        <div class="thumbnail card">
+                            <div class="img-event">
+                                <img class="img-fluid" src="images/physio_one.jpg" alt="">
+                            </div>
+                            <div class="caption card-body p-md-4">
+                                <h4 class="mb-4 editContent">Individualised Treatment Plan </h4>
+                                <p>
+                                    Our physiotherapist works with the patient to develop an individualized treatment
+                                    plan to improve the patient's physical and functional status.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 partgrid1">
+                        <div class="thumbnail card">
+                            <div class="img-event">
+                                <img class="img-fluid" src="images/physio_two.jpg" alt="">
+                            </div>
+                            <div class="caption card-body p-md-4">
+                                <h4 class="mb-4 editContent">Specially Equipped Facility </h4>
+                                <br>
+                                <p>
+                                    Our facility is specially equipped with state of the art equipments in a conducive
+                                    and friendly environment. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="content5" class="inner-w3layouts-wrap">
+                <div class="row part-grids text-center">
+                    <div class="col-md-6 partgrid2">
+                        <div class="thumbnail card">
+                            <div class="img-event">
+                                <img class="img-fluid" src="images/radio_one.jpg" alt="">
+                            </div>
+                            <div class="caption card-body p-md-4">
+                                <h4 class="mb-4 editContent">Clinical Imaging And Research </h4>
+                                <p>
+                                    Our radiology department is committed to providing outstanding patient care by
+                                    combining excellence in clinical imaging and
+                                    research.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 partgrid1">
+                        <div class="thumbnail card">
+                            <div class="img-event">
+                                <img class="img-fluid" src="images/radio_two.jpg" alt="">
+                            </div>
+                            <div class="caption card-body p-md-4">
+                                <br>
+                                <h4 class="mb-4 editContent">Lowest Level Of Radiation </h4>
+                                <br>
+                                <p>
+                                    We strive to provide technology that produces high quality, diagnostic exams at the
+                                    lowest level of patient radiation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="content6" class="inner-w3layouts-wrap">
+                <div class="row part-grids text-center">
+                    <div class="col-md-6 partgrid2">
+                        <div class="thumbnail card">
+                            <div class="img-event">
+                                <img class="img-fluid" src="images/pharm_one.jpg" alt="">
+                            </div>
+                            <div class="caption card-body p-md-4">
+                                <h4 class="mb-4 editContent">Pharmacy That Cares </h4>
+                                <p>
+                                    Our Pharmacy has everything you need to take good care of yourself and your
+                                    family.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 partgrid1">
+                        <div class="thumbnail card">
+                            <div class="img-event">
+                                <img class="img-fluid" src="images/pharm_two.jpg" alt="">
+                            </div>
+                            <div class="caption card-body p-md-4">
+                                <h4 class="mb-4 editContent">More Than Prescriptions </h4>
+                                <p>
+                                    Our Pharmacists provide more than just prescriptions and over-the-counter
+                                    medications;
+                                    they provide advice and support, and are a trusted source of information.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+
+    </div>
+</section>
+<!-- //tabs -->
+<!-- //last-content -->
+<section class="lab-test py-5" id="lab">
+    <div class="container py-md-5">
+        <div class="row banner-grids mb-lg-5">
+            <div class="col-lg-6 content-right pt-md-4">
+                <h4 class="mt-1">Trust Us</h4>
+                <br>
+                <h5>Excellence Is Our Speciality</h5>
+                <p class="mt-2 text-left">Our team led by seasoned professionals will work hard to use our talents and
+                    resourcefulness to administer medical care to every patient providing reasonable bill in a clean,
+                    convenient, friendly and Godly environment </p>
+
+            </div>
+            <div class="col-lg-6 content-left">
+                <img src="images/group_shot.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //lab-test -->
+<!-- /grids-content1 -->
+<section class="testimonials py-5" id="test">
+    <div class="container py-lg-3">
+        <div class="header-w3layouts text-center mb-5">
+            <h3 class="title-w3pvt two mb-3"> Client Reviews </h3>
+        </div>
+        <div id="myCarousel" class="test-content carousel slide" data-ride="carousel">
+            <div class="testimonials_grid carousel-inner">
+                <div class="item active">
+                                    <span class="fa fa-quote-left" aria-hidden="true"></span>
+                    <p class="sub-test editContent">In most hospitals checking out is something highly anticipated. The usual feeling is "Thank God"
+                        I had a totally different feeling here. My surgeon did a great job. Thank you Dr Ekere and everyone at Rehoboth Hospital.
+                    </p>
+                    <div class="testi_grid">
+                        <img src="images/c1.jpg" alt=" " class="img-fluid" width="80px" height="80px">
+                        <h5>John Kay</h5>
+                    </div>
+                </div>
+
+                <div class="item">
+                                    <span class="fa fa-quote-left" aria-hidden="true"></span>
+                    <p class="sub-test editContent">Staff is awesome, knowledgeable, friendly and not rushing out to get to another patient.
+                        Most nurses are handling too many patients at a time at other hospitals. The flow was very smooth from start to finish.
+                    </p>
+                    <div class="testi_grid">
+                        <img src="images/c1.jpg" alt=" " class="img-fluid" width="80px" height="80px">
+                        <h5>Clement Wan</h5>
+                    </div>
+                </div>
+                <div class="item">
+                                    <span class="fa fa-quote-left" aria-hidden="true"></span>
+                    <p class="sub-test editContent">This is a phenomenal hospital with phenomenal care,
+                        I am so grateful for the care and peace I received for my surgery and stay.
+                        This was a very wonderful experience. I'm at home now, healing quickly... and very grateful for their care.
+                    </p>
+                    <div class="testi_grid">
+                        <img src="images/c1.jpg" alt=" " class="img-fluid" width="80px" height="80px">
+                        <h5>Thomas Carl</h5>
+                    </div>
+                </div>
+<!--                -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //grids-content1 -->
+<!-- footer -->
+<footer>
+    <div class="container">
+        <div class="row footer-top">
+            <div class="col-lg-4 footer-grid_section_w3layouts">
+                <h2 class="logo-2 mb-lg-4 mb-3">
+                    <a href="index.html"><span class="fa fa-meetup"></span>Rehoboth</a>
+                </h2>
+                <p>Let us help you protect your health!</p>
+                <h4 class="sub-con-fo ad-info my-4"> catch us on Social</h4>
+                <ul class="w3layouts_social_list list-unstyled">
+                    <li>
+                        <a href="#" class="w3pvt_facebook">
+                            <span class="fa fa-facebook-f"></span>
+                        </a>
+                    </li>
+                    <li class="mx-2">
+                        <a href="#" class="w3pvt_twitter">
+                            <span class="fa fa-twitter"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="w3pvt_instagram">
+                            <span class="fa fa-instagram"></span>
+                        </a>
+                    </li>
+                    <li class="ml-2">
+                        <a href="#" class="w3pvt_google">
+                            <span class="fa fa-google-plus"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-8 footer-right">
+                <div class="w3layouts-news-letter">
+                    <h3 class="footer-title mb-lg-4 mb-3">Newsletter</h3>
+
+                    <p>By subscribing to our mailing list you will always get latest news and updates from us.</p>
+                    <form action="#" method="post" class="w3layouts-newsletter">
+                        <input type="email" name="Email" placeholder="Enter your email..." required="">
+                        <button class="btn1"><span class="fa fa-paper-plane-o" aria-hidden="true"></span></button>
+
+                    </form>
+                </div>
+                <div class="row mt-lg-4 bottom-w3layouts-sec-nav mx-0">
+                    <div class="col-md-6 footer-grid_section_w3layouts">
+                        <h3 class="footer-title mb-lg-4 mb-3">Information</h3>
+                        <ul class="list-unstyled w3layouts-icons">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="mt-3">
+                                <a href="about.html">About Us</a>
+                            </li>
+                            <li class="mt-3">
+                                <a href="#content1">Departments</a>
+                            </li>
+                            <li class="mt-3">
+                                <a href="gallery.html">Gallery</a>
+                            </li>
+                            <li class="mt-3">
+                                <a href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+<!--                    <div class="col-md-4 footer-grid_section_w3layouts">-->
+<!--                        &lt;!&ndash; social icons &ndash;&gt;-->
+<!--                        <div class="agileinfo_social_icons">-->
+<!--                            <h3 class="footer-title mb-lg-4 mb-3">Customer Service</h3>-->
+<!--                            <ul class="list-unstyled w3layouts-icons">-->
+
+<!--                                <li>-->
+<!--                                    <a href="about.html">About Us</a>-->
+<!--                                </li>-->
+<!--                                <li class="mt-3">-->
+<!--                                    <a href="#">Delivery & Returns</a>-->
+<!--                                </li>-->
+<!--                                <li class="mt-3">-->
+<!--                                    <a href="#">Waranty</a>-->
+<!--                                </li>-->
+<!--                                <li class="mt-3">-->
+<!--                                    <a href="#">Terms & Condition</a>-->
+<!--                                </li>-->
+<!--                                <li class="mt-3">-->
+<!--                                    <a href="#">Privacy Plolicy</a>-->
+<!--                                </li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                    </div>-->
+                    <div class="col-md-6 footer-grid_section_w3layouts my-md-0 my-5">
+                        <h3 class="footer-title mb-lg-4 mb-3">Contact Info</h3>
+                        <div class="contact-info">
+                            <div class="footer-address-inf">
+                                <h4 class="ad-info mb-2">Phone</h4>
+                                <p>+121 098 8907 9987</p>
+                            </div>
+                            <div class="footer-address-inf my-4">
+                                <h4 class="ad-info mb-2">Email </h4>
+                                <p><a href="mailto:info@example.com">info@example.com</a></p>
+                            </div>
+                            <div class="footer-address-inf">
+                                <h4 class="ad-info mb-2">Location</h4>
+                                <p>Honey Avenue, New York City</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- //footer -->
+<div class="cpy-right py-3">
+    <div class="container">
+        <div class="row">
+            <p class="col-md-10 text-left">© 2019 Rehoboth. All rights reserved
+            </p>
+            <!-- move top icon -->
+            <a href="#home" class="move-top text-lg-right text-center col-md-2">
+                <span class="fa fa-angle-double-up"
+                      aria-hidden="true"></span></a>
+            <!-- //move top icon -->
+        </div>
+    </div>
+</div>
+
+<div class="container modal fade loading-progress" role="dialog"
+     style="background: white; width: 30%;height: 30%;">
+    <div style="display: flex;">
+        <div id="circle">
+            <div class="loader">
+                <div class="loader">
+                    <div class="loader">
+                        <div class="loader">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span>Please wait...</span>
+    </div>
+</div>
+
+<div class="container" id="reg-form">
+    <div class="row">
+        <!-- Login / Register Modal-->
+        <div class="modal fade login-register-form" role="dialog">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content" style="margin-top: 150px;">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span class="glyphicon glyphicon-remove"></span>
+                        </button>
+                        <ul class="nav nav-tabs">
+                            <li class="active" id="login-tab"><a data-toggle="tab" href="#login-form"> Login <span
+                                    class="glyphicon glyphicon-user"></span></a></li>
+                            <li id="register-tab"><a data-toggle="tab" href="#registration-form"> Register <span
+                                    class="glyphicon glyphicon-pencil"></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="modal-body" id="form-body">
+                        <div class="tab-content">
+                            <div id="login-form" class="tab-pane fade in active">
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email"
+                                           name="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="pwd">Password:</label>
+                                    <input type="password" class="form-control" id="pwd"
+                                           placeholder="Enter password" name="pwd">
+                                    <h6 style="color: red;padding-left: 1px;display: none;" id="login-password-error">
+                                        Password length cannot be less than 6 characters</h6>
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" name="remember"> Remember me</label>
+                                </div>
+                                <button type="submit" class="btn btn-default" id="login-button">Login</button>
+                            </div>
+                            <div id="registration-form" class="tab-pane fade">
+                                <div class="form-group">
+                                    <label for="name">Your Name:</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter your name"
+                                           name="name">
+                                    <h6 style="color: red;padding-left: 1px;display: none;" id="name-error">Please enter
+                                        your full
+                                        name</h6>
+                                </div>
+                                <div class="form-group">
+                                    <label for="newemail">Email:</label>
+                                    <input type="email" class="form-control" id="newemail" placeholder="Enter new email"
+                                           name="newemail">
+                                    <h6 style="color: red;padding-left: 1px;display: none;" id="newemail-error">Please
+                                        enter a valid email address</h6>
+                                </div>
+                                <div class="form-group">
+                                    <label for="newpwd">Password:</label>
+                                    <input type="password" class="form-control" id="newpwd" placeholder="New password"
+                                           name="newpwd">
+                                    <h6 style="color: red;padding-left: 1px;display: none;" id="newpwd-error">Password
+                                        length should be at-least 6 characters</h6>
+                                </div>
+                                <div class="form-group">
+                                    <label for="newpwd_repeat">Repeat Password:</label>
+                                    <input type="password" class="form-control" id="newpwd_repeat"
+                                           placeholder="Repeat password"
+                                           name="newpwd_repeat">
+                                    <h6 style="color: red;padding-left: 1px;display: none;" id="newpwd-repeat-error">
+                                        Sorry, passwords didn't match</h6>
+                                </div>
+                                <button type="submit" class="btn btn-default" id="register">Register</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--                                    <div class="modal-footer">-->
+                    <!--                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                    <!--                                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/sha256.min.js" type="text/javascript"></script>
+<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyDc5ljABt2-sXDs86r2KDg6cZWORkuBFcA",
+        authDomain: "rehobothospital.firebaseapp.com",
+        databaseURL: "https://rehobothospital.firebaseio.com",
+        projectId: "rehobothospital",
+        storageBucket: "rehobothospital.appspot.com",
+        messagingSenderId: "391767668907"
+    };
+    firebase.initializeApp(config);
+</script>
+</html>
