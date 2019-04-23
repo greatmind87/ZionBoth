@@ -1,24 +1,6 @@
 $(document).ready(function () {
     initEventHandlers();
-//     $(window).on('resize', function () {
-//         let videoHeight = $("#video-container").height();
-//         console.log("Video Height=" + videoHeight);
-//         let originalVideo = 'videos/media.io_background_video.mp4';
-//         let scaledVideo = 'videos/resized.mp4';
-//         let videoID = 'background-video';
-//         let video = document.getElementById('background-video');
-//         if (videoHeight <= 441) {
-//             video.src = scaledVideo;
-//             video.load();
-//             video.play();
-//         } else {
-//             video.src = scaledVideo;
-//             video.load();
-//             video.play();
-//         }
-//         $("#contents-parent").css("height", videoHeight);
-//     });
-// });
+});
 
 function initEventHandlers() {
     $('.inner-dropdown').on('click', 'li', function () {
