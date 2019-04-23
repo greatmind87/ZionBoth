@@ -1,22 +1,24 @@
 $(document).ready(function () {
-    $(window).resize(updateUI());
     initEventHandlers();
-});
-
-function updateUI() {
-    let offset = 43;
-    let maxWidth = 1226;
-    let windowHeight = $(window).height();
-    let windowWidth = $(window).width();
-    // console.log("Window Height = " + windowHeight + "\nWindow Width=" + windowWidth);
-    let expected = (offset * windowWidth) / maxWidth;
-    $(".video-overlay").css('height', expected + 'em');
-    if (windowWidth <= 515 && windowHeight <= 377) {
-        $("#info-text").css('visibility', 'hidden');
-    } else {
-        $("#info-text").css('visibility', 'visible');
-    }
-}
+//     $(window).on('resize', function () {
+//         let videoHeight = $("#video-container").height();
+//         console.log("Video Height=" + videoHeight);
+//         let originalVideo = 'videos/media.io_background_video.mp4';
+//         let scaledVideo = 'videos/resized.mp4';
+//         let videoID = 'background-video';
+//         let video = document.getElementById('background-video');
+//         if (videoHeight <= 441) {
+//             video.src = scaledVideo;
+//             video.load();
+//             video.play();
+//         } else {
+//             video.src = scaledVideo;
+//             video.load();
+//             video.play();
+//         }
+//         $("#contents-parent").css("height", videoHeight);
+//     });
+// });
 
 function initEventHandlers() {
     $('.inner-dropdown').on('click', 'li', function () {
@@ -26,15 +28,12 @@ function initEventHandlers() {
         $("#tab" + contentNumber).prop("checked", true);
         location.href = clickedContent;
     });
-
     $("#register").on('click', function () {
         processSignUpData();
     });
-
     $("#login-button").on('click', function () {
         processLoginData();
     });
-
     $('body').on('keypress', '#form-body', function (args) {
         if (args.keyCode === 13) {
             if ($('#register-tab').hasClass('active')) {
@@ -48,13 +47,12 @@ function initEventHandlers() {
 
 $(window, document, undefined).ready(function () {
     $('.input').blur(function () {
-        var $this = $(this);
+        let $this = $(this);
         if ($this.val())
             $this.addClass('used');
         else
             $this.removeClass('used');
     });
-
 });
 
 function processLoginData() {

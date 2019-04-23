@@ -1,9 +1,4 @@
-/*--
-	Author: W3Layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 
 html,
 body {
@@ -1764,11 +1759,15 @@ a.move-top span {
 }
 
 .video-overlay {
-    position: absolute;
-    height: 43em;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.6);
     z-index: 1;
+    position:absolute;
+    width: 100%;
+    padding-left: 15px;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    float: top;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 video {
@@ -1825,4 +1824,18 @@ video {
 
 @keyframes rotate {
     100% {transform: rotate(360deg);}
+}
+@media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+
+}
+
+@media screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+
+}
+
+@media screen and (max-width: 479px) {
+    /* start of phone styles */
+
 }
